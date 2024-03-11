@@ -1,27 +1,14 @@
-= Access gematik Smartcards uaing PC/SC in Go
-
-NOTE: This project is in experimental state and not yet ready for production use. The APIs is subject to change at any time.
-
-== Usage
-
-[source,bash]
-----
-# Get dependency
-go get github.com/spilikin/healthcard
-----
-
-[source,go]
-----
 package healthcard_test
 
 import (
 	"log"
 	"log/slog"
+	"testing"
 
 	"github.com/spilikin/healthcard"
 )
 
-func main() {
+func TestReadCard(t *testing.T) {
 	// get a list of abailable PC/SC readers
 	readers, err := healthcard.Readers()
 	if err != nil {
@@ -61,12 +48,3 @@ func main() {
 	slog.Info("AUT certificate", "subject", cert.Subject, "issuer", cert.Issuer, "alg", cert.PublicKeyAlgorithm)
 
 }
-----
-
-== Licenses
-
-The project contains code from the following projects:
-
-* https://github.com/go-piv/piv-go,  Apache License, Version 2.0, (c) Google LLC
-* https://github.com/skythen/bertlv, MIT License, Copyright (c) 2021 skythen
-* Code Go standard library to enable Brainpool eliptic curves
