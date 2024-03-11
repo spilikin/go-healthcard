@@ -1,0 +1,13 @@
+= Access gematik Smartcards uaing PC/SC in Go
+
+NOTE: This project is in experimental state and not yet ready for production use. The APIs is subject to change at any time.
+
+
+
+== Licenses
+
+The project contains code from the following projects:
+
+* https://github.com/go-piv/piv-go,  Apache License, Version 2.0, (c) Google LLC
+* https://github.com/skythen/bertlv, MIT License, Copyright (c) 2021 skythen
+
