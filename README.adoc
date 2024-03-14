@@ -1,4 +1,4 @@
-= Access gematik Smartcards uaing PC/SC in Go
+= Access gematik Smartcards using PC/SC in Go
 
 NOTE: This project is in experimental state and not yet ready for production use. The APIs is subject to change at any time.
 
@@ -12,7 +12,7 @@ go get github.com/spilikin/healthcard
 
 [source,go]
 ----
-package healthcard_test
+package main
 
 import (
 	"log"
