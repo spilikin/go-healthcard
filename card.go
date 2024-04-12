@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log/slog"
 
+	"github.com/spilikin/go-brainpool"
 	"github.com/spilikin/healthcard/pcsc"
 )
 
@@ -100,7 +101,7 @@ func (c *Card) ReadCertificate(ef ElementaryFile) (x509.Certificate, error) {
 		return x509.Certificate{}, err
 	}
 
-	cert, err := ParseCertificate(certBytes)
+	cert, err := brainpool.ParseCertificate(certBytes)
 	if err != nil {
 		return x509.Certificate{}, fmt.Errorf("parsing certificate: %w", err)
 	}

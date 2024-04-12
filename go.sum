@@ -1,2 +1,4 @@
-golang.org/x/crypto v0.21.0 h1:X31++rzVUdKhX5sWmSOFZxx8UW/ldWx55cbf08iNAMA=
-golang.org/x/crypto v0.21.0/go.mod h1:0BP7YvVV9gBbVKyeTG0Gyn+gZm94bibOW5BjDEYAOMs=
+github.com/spilikin/go-brainpool v0.0.0-20240412063254-b281783aad2f h1:IyFzEd8Vc8gPJ8U3fUtrZjlCMVdp8jQehXuzKloKxQY=
+github.com/spilikin/go-brainpool v0.0.0-20240412063254-b281783aad2f/go.mod h1:twiHi+yCW6AvPAspKQqnzVR+hcLPeNkmo8KgWX8Mmig=
+golang.org/x/crypto v0.22.0 h1:g1v0xeRhjcugydODzvb3mEM9SQ0HGp9s/nh3COQ/C30=
+golang.org/x/crypto v0.22.0/go.mod h1:vr6Su+7cTlO45qkww3VDJlzDn0ctJvRgYbC2NvXHt+M=
