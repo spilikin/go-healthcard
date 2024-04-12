@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/spilikin/healthcard"
+	"github.com/spilikin/go-healthcard"
 )
 
 func TestReadCard(t *testing.T) {

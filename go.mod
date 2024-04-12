@@ -1,4 +1,4 @@
-module github.com/spilikin/healthcard
+module github.com/spilikin/go-healthcard
 
 go 1.21
 

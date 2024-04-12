@@ -7,7 +7,7 @@ import (
 	"log/slog"
 
 	"github.com/spilikin/go-brainpool"
-	"github.com/spilikin/healthcard/pcsc"
+	"github.com/spilikin/go-healthcard/pcsc"
 )
 
 type Card struct {
